@@ -90,3 +90,16 @@ only accessible in the block its defined in, not outside where line 12 is.
     for loop, callback executes function doSomething which multiplies num by 2.
     Thus, each element added to newArr is the result of what is returned from the 
     doSomething function. Finally, we get our newArr [2,4,6].
+
+18. 
+const intervalTime = setInterval(newTime, 1000);
+
+
+function newTime() {
+    let d = new Date();
+    let time = d.toLocaleTimeString();
+    console.log(time);
+
+}
+
+19. 1 4 3 2
