@@ -30,8 +30,7 @@ only accessible in the block its defined in, not outside where line 12 is.
 9. Will get reference error for i not being defined. Since i is of type let, it's
    only accessible in the block its defined in, not outside where line 11 is.
 
-10. 3 gets printed. length is of type const, which is the same scope as let. length is 
-    accesible within the block its defined in, thus line 12 gets printed as its in the 
+10. 3 gets printed. length is of type const, which is the same scope as let. length   is accesible within the block its defined in, thus line 12 gets printed as its in the 
     same block.
 
 11. the function returns the discounted array. discounted is of type const, which is 
